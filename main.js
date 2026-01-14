@@ -185,6 +185,7 @@ document
   .addEventListener("click", (e) => {
     document.querySelectorAll(".header .right .cart .order").forEach((ele) => {
       ele.remove();
+      countbag.innerHTML = 0;
     });
     document.querySelector(".header .right .cart .btn button").remove();
 
